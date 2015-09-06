@@ -13,6 +13,7 @@
 		799C23211B9CF87000A89415 /* findEyeCorner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 799C231A1B9CF87000A89415 /* findEyeCorner.cpp */; };
 		799C23221B9CF87000A89415 /* helpers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 799C231C1B9CF87000A89415 /* helpers.cpp */; };
 		799C23251B9CF8CA00A89415 /* main_modular.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 799C23231B9CF8CA00A89415 /* main_modular.cpp */; };
+		799C232D1B9CFDEF00A89415 /* face_detect_module.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 799C232B1B9CFDEF00A89415 /* face_detect_module.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,6 +50,9 @@
 		799C23231B9CF8CA00A89415 /* main_modular.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main_modular.cpp; sourceTree = "<group>"; };
 		799C23241B9CF8CA00A89415 /* main_modular.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main_modular.h; sourceTree = "<group>"; };
 		799C23291B9CFA1D00A89415 /* global_constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = global_constants.h; sourceTree = "<group>"; };
+		799C232B1B9CFDEF00A89415 /* face_detect_module.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = face_detect_module.cpp; sourceTree = "<group>"; };
+		799C232C1B9CFDEF00A89415 /* face_detect_module.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = face_detect_module.h; sourceTree = "<group>"; };
+		799C232F1B9CFE4F00A89415 /* opencv_preprocessors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = opencv_preprocessors.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,7 @@
 		799C22F71B9CF86400A89415 = {
 			isa = PBXGroup;
 			children = (
+				799C232A1B9CFDD200A89415 /* Face Detection */,
 				799C23261B9CF9DB00A89415 /* Global Functions */,
 				799C230A1B9CF87000A89415 /* eyeLike-master */,
 				799C23021B9CF86400A89415 /* MASPEP */,
@@ -150,8 +155,18 @@
 			isa = PBXGroup;
 			children = (
 				799C23291B9CFA1D00A89415 /* global_constants.h */,
+				799C232F1B9CFE4F00A89415 /* opencv_preprocessors.h */,
 			);
 			name = head;
+			sourceTree = "<group>";
+		};
+		799C232A1B9CFDD200A89415 /* Face Detection */ = {
+			isa = PBXGroup;
+			children = (
+				799C232B1B9CFDEF00A89415 /* face_detect_module.cpp */,
+				799C232C1B9CFDEF00A89415 /* face_detect_module.h */,
+			);
+			name = "Face Detection";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +230,7 @@
 				799C23211B9CF87000A89415 /* findEyeCorner.cpp in Sources */,
 				799C231F1B9CF87000A89415 /* eyeTrackingModule.cpp in Sources */,
 				799C23201B9CF87000A89415 /* findEyeCenter.cpp in Sources */,
+				799C232D1B9CFDEF00A89415 /* face_detect_module.cpp in Sources */,
 				799C23251B9CF8CA00A89415 /* main_modular.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -379,6 +395,7 @@
 				799C23091B9CF86400A89415 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
