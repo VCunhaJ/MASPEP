@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		799C23041B9CF86400A89415 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 799C23031B9CF86400A89415 /* main.cpp */; };
+		799C231E1B9CF87000A89415 /* Readme.md in Sources */ = {isa = PBXBuildFile; fileRef = 799C230F1B9CF87000A89415 /* Readme.md */; };
+		799C231F1B9CF87000A89415 /* eyeTrackingModule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 799C23161B9CF87000A89415 /* eyeTrackingModule.cpp */; };
+		799C23201B9CF87000A89415 /* findEyeCenter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 799C23181B9CF87000A89415 /* findEyeCenter.cpp */; };
+		799C23211B9CF87000A89415 /* findEyeCorner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 799C231A1B9CF87000A89415 /* findEyeCorner.cpp */; };
+		799C23221B9CF87000A89415 /* helpers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 799C231C1B9CF87000A89415 /* helpers.cpp */; };
+		799C23251B9CF8CA00A89415 /* main_modular.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 799C23231B9CF8CA00A89415 /* main_modular.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +29,25 @@
 
 /* Begin PBXFileReference section */
 		799C23001B9CF86400A89415 /* MASPEP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MASPEP; sourceTree = BUILT_PRODUCTS_DIR; };
-		799C23031B9CF86400A89415 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		799C230B1B9CF87000A89415 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		799C230C1B9CF87000A89415 /* cmakeBuild.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = cmakeBuild.sh; sourceTree = "<group>"; };
+		799C230D1B9CF87000A89415 /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		799C230E1B9CF87000A89415 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		799C230F1B9CF87000A89415 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		799C23111B9CF87000A89415 /* haarcascade_eye_tree_eyeglasses.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_eye_tree_eyeglasses.xml; sourceTree = "<group>"; };
+		799C23121B9CF87000A89415 /* haarcascade_frontalface_alt.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_frontalface_alt.xml; sourceTree = "<group>"; };
+		799C23141B9CF87000A89415 /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		799C23151B9CF87000A89415 /* constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constants.h; sourceTree = "<group>"; };
+		799C23161B9CF87000A89415 /* eyeTrackingModule.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = eyeTrackingModule.cpp; sourceTree = "<group>"; };
+		799C23171B9CF87000A89415 /* eyeTrackingModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eyeTrackingModule.h; sourceTree = "<group>"; };
+		799C23181B9CF87000A89415 /* findEyeCenter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = findEyeCenter.cpp; sourceTree = "<group>"; };
+		799C23191B9CF87000A89415 /* findEyeCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = findEyeCenter.h; sourceTree = "<group>"; };
+		799C231A1B9CF87000A89415 /* findEyeCorner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = findEyeCorner.cpp; sourceTree = "<group>"; };
+		799C231B1B9CF87000A89415 /* findEyeCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = findEyeCorner.h; sourceTree = "<group>"; };
+		799C231C1B9CF87000A89415 /* helpers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = helpers.cpp; sourceTree = "<group>"; };
+		799C231D1B9CF87000A89415 /* helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = helpers.h; sourceTree = "<group>"; };
+		799C23231B9CF8CA00A89415 /* main_modular.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main_modular.cpp; sourceTree = "<group>"; };
+		799C23241B9CF8CA00A89415 /* main_modular.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main_modular.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +64,7 @@
 		799C22F71B9CF86400A89415 = {
 			isa = PBXGroup;
 			children = (
+				799C230A1B9CF87000A89415 /* eyeLike-master */,
 				799C23021B9CF86400A89415 /* MASPEP */,
 				799C23011B9CF86400A89415 /* Products */,
 			);
@@ -57,9 +81,51 @@
 		799C23021B9CF86400A89415 /* MASPEP */ = {
 			isa = PBXGroup;
 			children = (
-				799C23031B9CF86400A89415 /* main.cpp */,
+				799C23231B9CF8CA00A89415 /* main_modular.cpp */,
+				799C23241B9CF8CA00A89415 /* main_modular.h */,
 			);
 			path = MASPEP;
+			sourceTree = "<group>";
+		};
+		799C230A1B9CF87000A89415 /* eyeLike-master */ = {
+			isa = PBXGroup;
+			children = (
+				799C230B1B9CF87000A89415 /* .gitignore */,
+				799C230C1B9CF87000A89415 /* cmakeBuild.sh */,
+				799C230D1B9CF87000A89415 /* CMakeLists.txt */,
+				799C230E1B9CF87000A89415 /* LICENSE */,
+				799C230F1B9CF87000A89415 /* Readme.md */,
+				799C23101B9CF87000A89415 /* res */,
+				799C23131B9CF87000A89415 /* src */,
+			);
+			name = "eyeLike-master";
+			path = "../eyeLike-master";
+			sourceTree = "<group>";
+		};
+		799C23101B9CF87000A89415 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				799C23111B9CF87000A89415 /* haarcascade_eye_tree_eyeglasses.xml */,
+				799C23121B9CF87000A89415 /* haarcascade_frontalface_alt.xml */,
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
+		799C23131B9CF87000A89415 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				799C23141B9CF87000A89415 /* CMakeLists.txt */,
+				799C23151B9CF87000A89415 /* constants.h */,
+				799C23161B9CF87000A89415 /* eyeTrackingModule.cpp */,
+				799C23171B9CF87000A89415 /* eyeTrackingModule.h */,
+				799C23181B9CF87000A89415 /* findEyeCenter.cpp */,
+				799C23191B9CF87000A89415 /* findEyeCenter.h */,
+				799C231A1B9CF87000A89415 /* findEyeCorner.cpp */,
+				799C231B1B9CF87000A89415 /* findEyeCorner.h */,
+				799C231C1B9CF87000A89415 /* helpers.cpp */,
+				799C231D1B9CF87000A89415 /* helpers.h */,
+			);
+			path = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +184,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				799C23041B9CF86400A89415 /* main.cpp in Sources */,
+				799C231E1B9CF87000A89415 /* Readme.md in Sources */,
+				799C23221B9CF87000A89415 /* helpers.cpp in Sources */,
+				799C23211B9CF87000A89415 /* findEyeCorner.cpp in Sources */,
+				799C231F1B9CF87000A89415 /* eyeTrackingModule.cpp in Sources */,
+				799C23201B9CF87000A89415 /* findEyeCenter.cpp in Sources */,
+				799C23251B9CF8CA00A89415 /* main_modular.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +273,31 @@
 		799C23081B9CF86400A89415 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				OTHER_LDFLAGS = (
+					"\n\n-lopencv_calib3d",
+					"-lopencv_core",
+					"-lopencv_features2d",
+					"-lopencv_flann",
+					"-lopencv_highgui",
+					"-lopencv_imgcodecs",
+					"-lopencv_imgproc",
+					"-lopencv_ml",
+					"-lopencv_objdetect",
+					"-lopencv_photo",
+					"-lopencv_shape",
+					"-lopencv_stitching",
+					"-lopencv_superres",
+					"-lopencv_ts",
+					"-lopencv_video",
+					"-lopencv_videoio",
+					"-lopencv_videostab\n\n",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -209,6 +305,31 @@
 		799C23091B9CF86400A89415 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				OTHER_LDFLAGS = (
+					"\n\n-lopencv_calib3d",
+					"-lopencv_core",
+					"-lopencv_features2d",
+					"-lopencv_flann",
+					"-lopencv_highgui",
+					"-lopencv_imgcodecs",
+					"-lopencv_imgproc",
+					"-lopencv_ml",
+					"-lopencv_objdetect",
+					"-lopencv_photo",
+					"-lopencv_shape",
+					"-lopencv_stitching",
+					"-lopencv_superres",
+					"-lopencv_ts",
+					"-lopencv_video",
+					"-lopencv_videoio",
+					"-lopencv_videostab\n\n",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
