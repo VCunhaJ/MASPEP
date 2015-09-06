@@ -48,6 +48,7 @@
 		799C231D1B9CF87000A89415 /* helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = helpers.h; sourceTree = "<group>"; };
 		799C23231B9CF8CA00A89415 /* main_modular.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main_modular.cpp; sourceTree = "<group>"; };
 		799C23241B9CF8CA00A89415 /* main_modular.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main_modular.h; sourceTree = "<group>"; };
+		799C23291B9CFA1D00A89415 /* global_constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = global_constants.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +65,7 @@
 		799C22F71B9CF86400A89415 = {
 			isa = PBXGroup;
 			children = (
+				799C23261B9CF9DB00A89415 /* Global Functions */,
 				799C230A1B9CF87000A89415 /* eyeLike-master */,
 				799C23021B9CF86400A89415 /* MASPEP */,
 				799C23011B9CF86400A89415 /* Products */,
@@ -126,6 +128,30 @@
 				799C231D1B9CF87000A89415 /* helpers.h */,
 			);
 			path = src;
+			sourceTree = "<group>";
+		};
+		799C23261B9CF9DB00A89415 /* Global Functions */ = {
+			isa = PBXGroup;
+			children = (
+				799C23281B9CF9EB00A89415 /* head */,
+				799C23271B9CF9E600A89415 /* src */,
+			);
+			name = "Global Functions";
+			sourceTree = "<group>";
+		};
+		799C23271B9CF9E600A89415 /* src */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		799C23281B9CF9EB00A89415 /* head */ = {
+			isa = PBXGroup;
+			children = (
+				799C23291B9CFA1D00A89415 /* global_constants.h */,
+			);
+			name = head;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
